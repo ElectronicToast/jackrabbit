@@ -11,6 +11,7 @@ _autosave-*
 *-save.pro
 *-save.kicad_pcb
 *.kicad_prl
+*-backups/
 
 *.net
 
