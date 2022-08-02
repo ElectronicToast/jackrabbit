@@ -3646,7 +3646,7 @@
     (effects (font (size 1.27 1.27)) (justify left bottom))
     (uuid 8b4568e3-33c8-4ff2-9db4-37cdd6b44ef4)
   )
-  (label "LEDC" (at 101.6 170.18 270)
+  (label "LEDA" (at 101.6 170.18 270)
     (effects (font (size 1.27 1.27)) (justify right bottom))
     (uuid 8c459da9-edf6-47c6-9030-7a0040bc63df)
   )
@@ -3758,7 +3758,7 @@
     (effects (font (size 1.27 1.27)) (justify right bottom))
     (uuid b8a815f1-c756-4800-9626-325faa2094ab)
   )
-  (label "LEDC" (at 173.99 144.78 180)
+  (label "LEDA" (at 173.99 144.78 180)
     (effects (font (size 1.27 1.27)) (justify right bottom))
     (uuid bb5b42de-5262-4425-89f3-fe2f71648af6)
   )
@@ -3838,7 +3838,7 @@
     (effects (font (size 1.27 1.27)) (justify left bottom))
     (uuid ded6805c-7e6d-40a0-b6fd-11284b7a97e3)
   )
-  (label "LEDA" (at 81.28 170.18 270)
+  (label "LEDC" (at 81.28 170.18 270)
     (effects (font (size 1.27 1.27)) (justify right bottom))
     (uuid e09611ab-f199-477b-a512-074dbe794673)
   )
@@ -3882,7 +3882,7 @@
     (effects (font (size 1.27 1.27)) (justify right bottom))
     (uuid fabcb4f0-1dbc-4ed7-8655-cfab04edc70b)
   )
-  (label "LEDA" (at 173.99 139.7 180)
+  (label "LEDC" (at 173.99 139.7 180)
     (effects (font (size 1.27 1.27)) (justify right bottom))
     (uuid fb183e5a-be2e-43f4-8737-6baeb8f55cee)
   )
@@ -4377,7 +4377,7 @@
   (symbol (lib_name "LED_Small_Filled_1") (lib_id "Device:LED_Small_Filled") (at 81.28 180.34 90) (unit 1)
     (in_bom yes) (on_board yes)
     (uuid 3c8ad82e-0820-4ead-9e14-c5a1d0d6fa95)
-    (property "Reference" "D2" (id 0) (at 83.058 179.4418 90)
+    (property "Reference" "D4" (id 0) (at 83.058 179.4418 90)
       (effects (font (size 1.27 1.27)) (justify right))
     )
     (property "Value" "YEL" (id 1) (at 83.058 181.9787 90)
@@ -4864,7 +4864,7 @@
   (symbol (lib_name "LED_Small_Filled_1") (lib_id "Device:LED_Small_Filled") (at 101.6 180.34 90) (unit 1)
     (in_bom yes) (on_board yes)
     (uuid 6e15d54a-aef5-43a5-a120-ced871729ae0)
-    (property "Reference" "D4" (id 0) (at 103.378 179.4418 90)
+    (property "Reference" "D2" (id 0) (at 103.378 179.4418 90)
       (effects (font (size 1.27 1.27)) (justify right))
     )
     (property "Value" "BLU" (id 1) (at 103.378 181.9787 90)
@@ -6165,14 +6165,14 @@
     (path "/c84b9f8f-97b8-4d25-81c3-ffc66faa678a"
       (reference "D1") (unit 1) (value "RED") (footprint "LED_SMD:LED_0805_2012Metric_Pad1.15x1.40mm_HandSolder")
     )
-    (path "/3c8ad82e-0820-4ead-9e14-c5a1d0d6fa95"
-      (reference "D2") (unit 1) (value "YEL") (footprint "LED_SMD:LED_0805_2012Metric_Pad1.15x1.40mm_HandSolder")
+    (path "/6e15d54a-aef5-43a5-a120-ced871729ae0"
+      (reference "D2") (unit 1) (value "BLU") (footprint "LED_SMD:LED_0805_2012Metric_Pad1.15x1.40mm_HandSolder")
     )
     (path "/0334377f-0ba8-4c56-8715-c44a67252a3c"
       (reference "D3") (unit 1) (value "GRN") (footprint "LED_SMD:LED_0805_2012Metric_Pad1.15x1.40mm_HandSolder")
     )
-    (path "/6e15d54a-aef5-43a5-a120-ced871729ae0"
-      (reference "D4") (unit 1) (value "BLU") (footprint "LED_SMD:LED_0805_2012Metric_Pad1.15x1.40mm_HandSolder")
+    (path "/3c8ad82e-0820-4ead-9e14-c5a1d0d6fa95"
+      (reference "D4") (unit 1) (value "YEL") (footprint "LED_SMD:LED_0805_2012Metric_Pad1.15x1.40mm_HandSolder")
     )
     (path "/0f88460d-2b2c-40e7-94ae-da4786e25a21"
       (reference "F1") (unit 1) (value "0ZCJ0025FF2E") (footprint "Fuse:Fuse_1206_3216Metric_Pad1.42x1.75mm_HandSolder")
