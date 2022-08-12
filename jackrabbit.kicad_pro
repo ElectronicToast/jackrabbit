@@ -45,7 +45,7 @@
         "silk_text_upright": false,
         "zones": {
           "45_degree_only": false,
-          "min_clearance": 0.2032
+          "min_clearance": 0.508
         }
       },
       "diff_pair_dimensions": [
@@ -97,7 +97,7 @@
         "unresolved_variable": "error",
         "via_dangling": "warning",
         "zone_has_empty_net": "error",
-        "zones_intersect": "error"
+        "zones_intersect": "warning"
       },
       "rules": {
         "allow_blind_buried_vias": false,
