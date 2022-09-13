@@ -97,7 +97,7 @@
         "unresolved_variable": "error",
         "via_dangling": "warning",
         "zone_has_empty_net": "error",
-        "zones_intersect": "error"
+        "zones_intersect": "warning"
       },
       "rules": {
         "allow_blind_buried_vias": false,
@@ -134,20 +134,20 @@
           "drill": 0.0
         },
         {
-          "diameter": 5.08,
-          "drill": 2.54
+          "diameter": 0.508,
+          "drill": 0.254
         },
         {
-          "diameter": 6.096,
-          "drill": 3.048
+          "diameter": 0.6096,
+          "drill": 0.3048
         },
         {
-          "diameter": 7.62,
-          "drill": 3.81
+          "diameter": 0.762,
+          "drill": 0.381
         },
         {
-          "diameter": 10.16,
-          "drill": 5.08
+          "diameter": 1.016,
+          "drill": 0.508
         }
       ],
       "zones_allow_external_fillets": false,
