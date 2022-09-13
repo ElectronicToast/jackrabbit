@@ -977,7 +977,7 @@
       (effects (font (size 0.762 0.762) (thickness 0.127)))
       (tstamp e5701d62-e060-48c1-992d-c3687379cd39)
     )
-    (fp_text value "74LVX245" (at 0 3.45 180 unlocked) (layer "F.Fab") hide
+    (fp_text value "74LVCH245A" (at 0 3.45 180 unlocked) (layer "F.Fab") hide
       (effects (font (size 0.762 0.762) (thickness 0.127)))
       (tstamp 82f43ab0-57f2-4131-84d1-83dde1bf1dc1)
     )
@@ -2099,7 +2099,7 @@
       (effects (font (size 0.762 0.762) (thickness 0.127)))
       (tstamp b4200b3d-fdae-4237-bb80-d0b6489889b1)
     )
-    (fp_text value "74LVX245" (at 0 3.45 180 unlocked) (layer "F.Fab") hide
+    (fp_text value "74LVCH245A" (at 0 3.45 180 unlocked) (layer "F.Fab") hide
       (effects (font (size 0.762 0.762) (thickness 0.127)))
       (tstamp 65558174-f214-4eee-a6ea-1e8f9620327f)
     )
