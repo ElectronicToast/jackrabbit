@@ -5382,7 +5382,7 @@
     (uuid bddb51ee-6644-4c08-a840-0f41d7938dbf)
     (property "Reference" "Y1" (id 0) (at 82.55 116.84 90))
     (property "Value" "ECS-120-18-33-JGN" (id 1) (at 92.71 119.38 90))
-    (property "Footprint" "Crystal:Crystal_SMD_SeikoEpson_FA238-4Pin_3.2x2.5mm" (id 2) (at 78.74 119.38 0)
+    (property "Footprint" "jackrabbit:Crystal_SMD_ECS-4Pin_3.2x2.5mm" (id 2) (at 78.74 119.38 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "https://www.mouser.com/datasheet/2/122/ecx_32-1888651.pdf" (id 3) (at 78.74 119.38 0)
@@ -6283,7 +6283,7 @@
       (reference "U5") (unit 1) (value "74LVCH245A") (footprint "Package_SO:TSSOP-20_4.4x5mm_P0.5mm")
     )
     (path "/bddb51ee-6644-4c08-a840-0f41d7938dbf"
-      (reference "Y1") (unit 1) (value "ECS-120-18-33-JGN") (footprint "Crystal:Crystal_SMD_SeikoEpson_FA238-4Pin_3.2x2.5mm")
+      (reference "Y1") (unit 1) (value "ECS-120-18-33-JGN") (footprint "jackrabbit:Crystal_SMD_ECS-4Pin_3.2x2.5mm")
     )
   )
 )
