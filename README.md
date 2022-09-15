@@ -12,6 +12,7 @@ Jackrabbit is a RP2040-based 16-channel logic analyzer in a tiny 1.8" by 1.2" fo
 ## Documentation
 - [Schematic](https://github.com/ElectronicToast/jackrabbit/blob/main/doc/jackrabbit.pdf)
 - Fab print [front](https://github.com/ElectronicToast/jackrabbit/blob/main/doc/jackrabbit-f.pdf) and [back](https://github.com/ElectronicToast/jackrabbit/blob/main/doc/jackrabbit-b.pdf)
+- [Interactive BOM](http://htmlpreview.github.io/?https://github.com/ElectronicToast/jackrabbit/blob/main/doc/ibom.html)
 
 ## Contributors
 - Brian Cruz - BS EE, Caltech, 2023
