@@ -7,11 +7,11 @@
   (paper "USLetter")
   (title_block
     (title "Jackrabbit RP2040 Logic Analyzer")
-    (date "2022-09-12")
+    (date "2022-09-14")
     (rev "A")
     (comment 2 "Ray Sun")
     (comment 3 "Brandon Gong")
-    (comment 4 "Brain Cruz")
+    (comment 4 "Brian Cruz")
   )
 
   (layers
@@ -31,13 +31,13 @@
 
   (setup
     (stackup
-      (layer "F.SilkS" (type "Top Silk Screen") (color "White"))
-      (layer "F.Mask" (type "Top Solder Mask") (color "Purple") (thickness 0.0254))
+      (layer "F.SilkS" (type "Top Silk Screen") (color "White") (material "PSR-4100WL"))
+      (layer "F.Mask" (type "Top Solder Mask") (color "Purple") (thickness 0.0254) (material "PSR-4000BN") (epsilon_r 3.3) (loss_tangent 0))
       (layer "F.Cu" (type "copper") (thickness 0.03556))
-      (layer "dielectric 1" (type "core") (thickness 1.524) (material "FR4") (epsilon_r 4.5) (loss_tangent 0.02))
+      (layer "dielectric 1" (type "prepreg") (thickness 1.524) (material "FR4") (epsilon_r 4.5) (loss_tangent 0.02))
       (layer "B.Cu" (type "copper") (thickness 0.03556))
-      (layer "B.Mask" (type "Bottom Solder Mask") (color "Purple") (thickness 0.0254))
-      (layer "B.SilkS" (type "Bottom Silk Screen") (color "White"))
+      (layer "B.Mask" (type "Bottom Solder Mask") (color "Purple") (thickness 0.0254) (material "PSR-4000BN") (epsilon_r 3.3) (loss_tangent 0))
+      (layer "B.SilkS" (type "Bottom Silk Screen") (color "White") (material "PSR-4100WL"))
       (copper_finish "ENIG")
       (dielectric_constraints no)
     )
